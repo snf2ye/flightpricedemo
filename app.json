@@ -1,0 +1,5 @@
+{
+  "name": "Flight Pricing App Demo",
+  "description": "Flight Pricing App Demo",
+  "keywords": ["node", "express", "heroku"],
+}

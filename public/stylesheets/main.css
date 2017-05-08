@@ -1,0 +1,205 @@
+.ui-datepicker,
+.ui-datepicker table,
+.ui-datepicker tr,
+.ui-datepicker td,
+.ui-datepicker th {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-spacing: 0;
+}
+
+.ui-datepicker {
+    display: none;
+    width: 355px!important;
+    padding: 13px;
+    cursor: default;
+ 
+    text-transform: uppercase;
+    font-family: Tahoma;
+    font-size: 16px;
+ 
+    background: transparent;
+}
+
+
+.ui-datepicker-header {
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+ 
+.ui-datepicker-title { text-align: center; }
+ 
+.ui-datepicker-month {
+    position: relative;
+    padding-right: 4px;
+    color: #565656;
+}
+ 
+.ui-datepicker-year {
+    padding-left: 4px;
+    color: #a8a8a8;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next,
+.ui-datepicker-prev .ui-icon,
+.ui-datepicker-next .ui-icon{
+  display:none;
+}
+
+.ui-datepicker-calendar th {
+    padding-top: 15px;
+    padding-bottom: 10px;
+ 
+    text-align: center;
+    font-weight: normal;
+    color: #a8a8a8;
+}
+
+.ui-datepicker-calendar td {
+    padding: 0 0;
+ 
+    text-align: center;
+    line-height: 26px;
+}
+ 
+.ui-datepicker-calendar .ui-state-default {
+    display: block;
+    width: 26px;
+    outline: none;
+ 
+    text-decoration: none;
+    /*color: #a8a8a8;*/
+ 
+    border: 1px solid transparent;
+    color: white;
+    background-color: #6FC28B;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
+.ui-datepicker-calendar .ui-state-active, 
+.startDateRange .ui-state-active, 
+.startDateRange .ui-state-default
+ {
+    color: white;
+    border: 1px solid transparent;
+}
+
+.startDateRangeOrange .ui-state-active, 
+.startDateRangeOrange .ui-state-default {
+  background: url(/img/background-arrow-right-orange.png) center center;
+}
+.startDateRangeYellow .ui-state-active, 
+.startDateRangeYellow .ui-state-default {
+  background: url(/img/background-arrow-right-yellow.png) center center;
+}
+.startDateRangeRed .ui-state-active, 
+.startDateRangeRed .ui-state-default {
+  background: url(/img/background-arrow-right-red.png) center center;
+}
+.startDateRangeGreen .ui-state-active, 
+.startDateRangeGreen .ui-state-default {
+  background: url(/img/background-arrow-right-green.png) center center;
+}
+
+.endDateRangeOrange .ui-state-active {
+  color: white;
+  border: 1px solid transparent;
+}
+.endDateRangeOrange .ui-state-active {
+  background: url(/img/background-arrow-left-orange.png) center center;
+}
+.endDateRangeYellow .ui-state-active {
+  background: url(/img/background-arrow-left-yellow.png) center center;
+}
+.endDateRangeRed .ui-state-active {
+  background: url(/img/background-arrow-left-red.png) center center;
+}
+.endDateRangeGreen .ui-state-active {
+  background: url(/img/background-arrow-left-green.png) center center;
+}
+ 
+.ui-datepicker-other-month .ui-state-default { color: #565656; }
+
+/*Put calendar in mobile phone-like div*/
+#PhoneWrapper{
+  height: 520px;
+  width: 380px;
+  overflow: scroll;
+  border: 1px solid;
+  box-shadow: 10px 10px 5px #888888;
+}
+@media (max-width: 400px){
+  .ui-datepicker {
+  width: 100%;
+  }
+  #PhoneWrapper {
+    width: 100%;
+  }
+
+}
+.ui-datepicker thead {
+  display: none;
+}
+.dp-highlight .ui-state-default {
+          background: #484;
+          color: #FFF;
+        }
+.inDateRange .ui-state-default {
+  color: white;
+  border: 1px solid transparent;
+  background: #b5dfec!important;*/
+}
+
+
+.orange .ui-state-default {
+  background-color: #e36624;
+}
+.yellow .ui-state-default {
+  background-color: #f0a02a;
+}
+.green .ui-state-default {
+  background-color: #6fc28b;
+}
+.red .ui-state-default {
+  background-color:   #c20a20;
+}
+.gray .ui-state-default {
+  background-color: gray;
+}
+.beforeDateRange .ui-state-default,
+.afterDateRange .ui-state-default {
+background: #C8C8C8;
+}
+
+#PriceRange{
+  width: 100%;
+}
+.pricedisplay {
+  display:inline-block;
+  height: 20px;
+  width: 22%;
+  color: white;
+  border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: Tahoma;
+    font-size: 14px;
+
+}
+#GreenPrice {
+  background-color: #6fc28b;
+}
+#YellowPrice {
+  background-color: #f0a02a;
+}
+#OrangePrice {
+  background-color: #e36624;
+}
+#RedPrice {
+  background-color:   #c20a20;
+}
+
